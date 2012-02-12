@@ -34,7 +34,7 @@ get '/' do
   haml :upload
 end
 
-get '/' do
+get '/print' do
   Image.first
   haml :pr
 end
