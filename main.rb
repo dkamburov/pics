@@ -1,4 +1,4 @@
- require 'sinatra'
+require 'sinatra'
 require 'data_mapper'
 require 'dm-paperclip'
 
