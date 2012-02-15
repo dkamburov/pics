@@ -35,7 +35,7 @@ get '/' do
 end
 
 get '/print' do
-  Image.first
+  @resource = Image.first
   haml :pr
 end
 
